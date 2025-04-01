@@ -6,12 +6,16 @@ import { AppComponent } from './app.component';
 import { TempConverterComponent } from './components/temp-converter/temp-converter.component';
 import { TempConverterPipe } from './pipes/temp-converter.pipe';
 import { FormsModule } from '@angular/forms';
+import { TwoSumPipe } from './pipes/two-sum.pipe';
+import { ThreeProductPipe } from './pipes/three-product.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     TempConverterComponent,
-    TempConverterPipe
+    TempConverterPipe,
+    TwoSumPipe,
+    ThreeProductPipe
   ],
   imports: [
     BrowserModule,
